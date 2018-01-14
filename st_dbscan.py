@@ -93,9 +93,12 @@ r3= new_zon
 r4= new_mer
 r5= df['AirTemp'].as_matrix()
 
+#convert data into new data structure using class Data
 rw = 100
 for r in range(rw):
     D[r] = Data(r0[r], r1[r], r2[r], r3[r], r4[r], r5[r])
+    
+   
 Cluster_label = 0
 for r in range(rw):
     if D[r].clabel == Unmarked:
