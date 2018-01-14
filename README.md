@@ -3,6 +3,8 @@ Implements the ST-DBSCAN algorithm to find clusters in a spatial-temporal databa
 
 To use the code one should provide 5 variables which will be stored in r0-r5
 
+Each value can be stored in array. The value will then be converted to a new data structure called Data
+
 r0 = id of each row (this will not be included in calculation of cluster)
 
 r1 = latitude
